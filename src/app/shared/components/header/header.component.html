@@ -1,9 +1,15 @@
 <div class="header">
     <div class="flex items-center justify-between">
+
+        <!-- Header Logo -->
         <div class="header_logo"> <img src="../../../../assets/icons/total-scope.png" alt="total-scope"></div>
+
+        <!-- Header Menu Items -->
         <div class="nav-bar">
             <kendo-menu class="kendo-navbar" (select)="onMenuSelection($event)"[items]="items"></kendo-menu>
         </div>
+
+        <!-- Header Right Side Buttons -->
         <div class="flex items-center">
             <button class="login-btn">
                 Login

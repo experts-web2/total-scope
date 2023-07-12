@@ -1,8 +1,11 @@
-.footer-wrapper{
+/* FOOTER WRAPPER */
+.footer-wrapper {
     border-top: 2px solid var(--blue-grey-light, #F2F8FD);
     padding: 15.5px 32px 13.5px 30.276px;
+    height: 53px;
 
-    .common-text{
+    /* COMMON TEXT */
+    .common-text {
         color: var(--black, #303030);
         text-align: right;
         font-family: AvenirNext forINTUIT;
@@ -11,7 +14,9 @@
         font-weight: 500;
         line-height: 20px;
     }
-    .email-wrapper{
+
+    /* EMAIL WRAPPER */
+    .email-wrapper {
         margin-right: 19px;
     }
 }

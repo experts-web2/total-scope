@@ -9,7 +9,6 @@ import { HeaderMenuItems } from 'src/app/models/header.model';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-    
   constructor(private router: Router) {}
 
   public items: HeaderMenuItems[] = [

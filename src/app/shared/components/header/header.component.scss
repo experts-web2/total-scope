@@ -1,77 +1,84 @@
-.header{
-    padding: 4.86px 33px;
-    height: 71px;
-    &_logo{
-        width: 219px;
-        height: 61px;
-    }
-    .nav-bar{
-        width: 575px;
-        height: 22px;
-    }
-    .login-btn,
-    .signup-btn{
-        width: 137px;
-        height: 48px;
-        text-align: center;
-        font-family: AvenirNext forINTUIT;
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 22px;
-        box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.10);
-        border-radius: 48px;
-        flex-shrink: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    /* MAIN HEADER */
+    .header {
+        padding: 4.86px 33px;
+        height: 71px;
+
+        &_logo {
+            width: 219px;
+            height: 61px;
+        }
+
+        /* NAV BAR */
+        .nav-bar {
+            width: 575px;
+            height: 22px;
+        }
+
+        /* LOGIN & SIGNUP BUTTON */
+        .login-btn,
+        .signup-btn {
+            width: 137px;
+            height: 48px;
+            text-align: center;
+            font-family: AvenirNext forINTUIT;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+            box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.10);
+            border-radius: 48px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* LOGIN BUTTON */
+        .login-btn {
+            color: var(--black, #303030);
+            padding: 13px 46px 13px 47px;
+            border: 1px solid var(--black, #303030);
+            margin-right: 10px;
+        }
+
+        /* SIGNUP BUTTON */
+        .signup-btn {
+            color: var(--white, #FFF);
+            padding: 12px 23.5px 12px 24.5px;
+            background: var(--blue, #306FD5);
+        }
     }
 
-    .login-btn{
-        color: var(--black, #303030);
-        padding: 13px 46px 13px 47px;
-        border: 1px solid var(--black, #303030);
-        margin-right: 10px;
-    }
+    /* KENDO NAV BAR*/
+    ::ng-deep {
+        .kendo-navbar {
+            width: 100%;
 
-    .signup-btn{
-        color: var(--white, #FFF);
-        padding: 12px 23.5px 12px 24.5px;
-        background: var(--blue, #306FD5);
-    }
-}
+            /* KENDO NAV BAR  LIST*/
+            ul {
+                justify-content: space-between;
 
+                li {
 
+                    /* KENDO NAV BAR  MENU LINK*/
+                    .k-link.k-menu-link {
+                        padding: 0;
+                    }
 
-::ng-deep{
-    .kendo-navbar{
-        width: 100% ;
-        ul{
-            justify-content: space-between;
-            li{
-                .k-link.k-menu-link{
-                    padding: 0;
-                }
-                .k-menu-link-text{
-                    font-size: 17px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 22px;
-                    color: #303030;
-                }
-                &:hover .k-menu-link-text{
-                    color: #306FD5;
+                    /* KENDO NAV BAR  MENU LINK TEXT*/
+                    .k-menu-link-text {
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 22px;
+                        color: #303030;
+                    }
+
+                    /* KENDO NAV BAR  ON HOVER*/
+                    &:hover .k-menu-link-text {
+                        color: #306FD5;
+                    }
                 }
             }
         }
     }
-}
-
-
-// .common-text{
-//     font-family: AvenirNext forINTUIT;
-//     font-size: 17px;
-//     font-style: normal;
-//     font-weight: 600;
-//     line-height: 22px;
-// }

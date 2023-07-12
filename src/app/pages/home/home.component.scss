@@ -1,0 +1,67 @@
+.content-section{
+    display: flex;
+    padding: 5.5px 33px 10.1px 31.734px;
+    justify-content: center;
+    align-items: center;
+    background: var(--white, #FFF);
+    // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    .title{
+        color: var(--black, #303030);
+        font-family: AvenirNext forINTUIT;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        margin-top: 51.19px;
+        width: 297px;
+        height: 100px;
+    }
+    .content{
+        display: flex;
+        width: 430.268px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: var(--black, #303030);
+        font-family: AvenirNext forINTUIT;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        margin-top: 21.09px;
+    }
+
+    .estimate-paragraph{
+        margin-top: 48.73px;
+        max-width: 438px;
+        img{
+            width: 24px;
+            height: 24px;
+        }
+        p{
+            color: var(--black, #303030);
+            font-family: AvenirNext forINTUIT;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+        }
+    }
+    .get-started{
+        display: flex;
+        width: 178px;
+        height: 48px;
+        padding: 12px 31.5px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 48px;
+        background: var(--blue, #306FD5);
+        box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.10);
+        color: var(--white, #FFF);
+        font-family: AvenirNext forINTUIT;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+    }
+}
